@@ -34,10 +34,10 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: https://www.facebook.com/visuology.nl
-twitter: https://twitter.com/visuology_nl
+facebook: visuology.nl
+twitter: visuology_nl
 # google: mygoogle
-instagram: https://www.instagram.com/visuology_nl/
+instagram: visuology_nl
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
