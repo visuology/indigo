@@ -1,5 +1,5 @@
 # main text of home
-name: Jeroen Laven
+name: Jeroen Lavèn
 bio: Harvesting moments.
 
 # twitter summary info
@@ -14,7 +14,7 @@ picture: assets/images/jeroen.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://google.com/?q=my+resume
+resume-url: https://www.linkedin.com/in/jlart/
 
 url: http://visuology.nl/
 # your url: http://USERNAME.github.io
@@ -34,30 +34,30 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: https://www.facebook.com/visuology.nl
+twitter: https://twitter.com/visuology_nl
 # google: mygoogle
-# instagram: myinstagram
+instagram: https://www.instagram.com/visuology_nl/
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+# github: mygithub
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: jeroen.laven@me.com
 
 authors:
     johndoe:
         name: Jeroen Laven
         bio: Harvesting moments.
         external-image: false
-        picture: assets/images/profile.jpg
+        picture: assets/images/jeroen.jpg
         twitter: visuology_nl
 
 # do you want a larger site? change the option below
@@ -70,7 +70,7 @@ width: normal
 # paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
-projects: true
+projects: false
 
 # if you don't need "about" or "blog", comment them out below
 about: true
