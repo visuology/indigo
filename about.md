@@ -30,11 +30,3 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<li>Final Cut Pro</li>
 	<li>CSS, HTML5</li>
 </ul>
-
-<h2>Projects</h2>
-
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
