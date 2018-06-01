@@ -21,20 +21,14 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
+	<li>Social Media Advertising</li>
+	<li>Mailchimp, Buffer</li>
+	<li>Google Analytics</li>
+	<li>Photoshop, Illustrator</li>
+	<li>InDesign</li>
+	<li>Premiere Pro, After Effects</li>
+	<li>Final Cut Pro</li>
+	<li>CSS, HTML5</li>
 </ul>
 
 <h2>Projects</h2>
