@@ -20,7 +20,10 @@
     {% for job in site.data.jobs %}
         <dt>
             <p class="title">{{ job.title }}</p>
-            <p class="company">{{ job.company }}</p>
+            <div class="social">{{ job.company }}
+              {{ if job.website }}<a href="https://www.wdw.nl/{{ job.website }}" target="_blank">Witte de With Center for Contemporary Art</a>{{ endif }}
+              {{ if job.website2 }}<a href="https://www.kunsblock.nl{{ job.website2 }}" target="_blank">Kunstblock</a>{{ endif }}
+            </div>
             <p class="period">{{ job.period }}</p>
         </dt><!--
         --><dd>
