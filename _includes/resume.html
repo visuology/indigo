@@ -20,7 +20,7 @@
     {% for job in site.data.jobs %}
         <dt>
             <p class="title">{{ job.title }}</p>
-            <div class="social">{{ job.website }}
+            <div class="social">
               {{ if job.website }}<a href="https://www.{{ job.website }}" target="_blank">{{ job.company }}</a>{{ endif }}
             </div>
             <p class="period">{{ job.period }}</p>
