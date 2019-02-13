@@ -1,13 +1,13 @@
 <h3 class="section-title">Portfolio</h3>
 <dl class="education">
-    {% for job in site.data.jobs %}
+    {% for job in site.data.portfolio %}
         <dt>
-            <p class="title">{{ job.title }}</p>
-            <p class="company">{{ job.company }}</p>
-            <p class="period">{{ job.period }}</p>
+            <p class="title">{{ portfolio.title }}</p>
+            <p class="company">{{ portfolio.company }}</p>
+            <p class="period">{{ portfolio.period }}</p>
         </dt><!--
         --><dd>
-            <p>{{ job.description }}</p>
+            <p>{{ portfolio.description }}</p>
         </dd>
     {% endfor %}
 </dl>
