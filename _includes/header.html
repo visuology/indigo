@@ -1,26 +1,19 @@
-{% if page.title == "Home"
-   or page.title == "Blog"
-   or page.title == "Projects"
-   or page.title == "Tags"
-%}{% assign showHeader = true %}{% endif %}
+<header>
+    <div class="container">
+        <div class="intro">
+            <p class="intro__pre">Hello</p>
+            <p class="intro__main">My name is <span>{{ site.name }}</span>, a {{ site.job }} who loves all things {{ site.languages }}</p>
+            <p class="intro__post">{{ site.location }}</p>
+        </div>
 
-{% if showHeader == true %}
-    <header class="header-home {% if site.animation %}animated{% endif %}">
-        {% if site.about %}
-            <a class="link" href="{{ site.url }}/about">
-                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
-            </a>
-        {% else %}
-            <span class="link">
-                <img class="selfie" alt="{{ site.name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
-            </span>
-        {% endif %}
+        {{ if site.github_username or site.codepen_username or site.twitter_username or site.email_address }}
+        <div class="social">
+            {{ if site.github_username }}<a href="http://github.com/{{ site.github_username }}" target="_blank">GitHub</a>{{ endif }}
+            {{ if site.codepen_username }}<a href="http://codepen.io/{{ site.codepen_username }}" target="_blank">CodePen</a>{{ endif }}
+            {{ if site.twitter_username }}<a href="http://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>{{ endif }}
+            {{ if site.email_address }}<a href="mailto:{{ site.email_address }}" target="_blank">Email</a>{{ endif }}
+        </div>
+        {{ endif }}
 
-        <h1 class="title">{{ site.name }}</h1>
-        <h2 class="description">{{ site.bio }}</h2>
-
-        {% include social-links.html %}
-    </header>
-{% endif %}
-
-{% include nav.html %}
+    </div>
+</header>
