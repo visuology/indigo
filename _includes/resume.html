@@ -5,6 +5,9 @@
             <p class="title">{{ portfolio.title }}</p>
             <p class="company">{{ portfolio.company }}</p>
             <p class="period">{{ portfolio.period }}</p>
+            <div class="social">
+              {{ if site.linkedin_username }}<a href="http://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">LinkedIn</a>{{ endif }}
+            <div>
         </dt><!--
         --><dd>
             <p>{{ portfolio.description }}</p>
