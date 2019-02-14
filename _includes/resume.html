@@ -2,11 +2,13 @@
 <dl class="about">
     {% for about in site.data.about %}
         <dd>
-            <p>{{ about.description }}
-              <div class="social">
-              {{ if about.website }}<a href="mailto:{{ about.website }}">Contact me</a>{{ endif }}
-              <div>
-            </p>
+            <p>{{ about.description }}</p>
+            <br>
+            <p>{{ about.description2 }}</p>
+            <br>
+            <p><div class="social">
+            {{ if about.website }}<a href="mailto:{{ about.website }}">Contact me</a>{{ endif }}
+            <div></p>
         </dd>
     {% endfor %}
 </dl>
