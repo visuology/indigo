@@ -14,4 +14,9 @@
     &__subtitle {
         text-transform: capitalize;
     }
+
+    img, {
+	   max-width: 100px;
+     border-radius: 4px;
+   }
 }
