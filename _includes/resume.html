@@ -4,6 +4,9 @@
         <dd>
             <p>{{ about.description }}</p>
         </dd>
+        <div class="social">
+          {{ if portfolio.website }}<a href="mailto:{{ portfolio.website }}" target="_blank">Contact me</a>{{ endif }}
+        <div>
     {% endfor %}
 </dl>
 
