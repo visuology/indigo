@@ -1,3 +1,12 @@
+<h3 class="section-title">About</h3>
+<dl class="about">
+    {% for portfolio in site.data.about %}
+        <dd>
+            <p>{{ about.description }}</p>
+        </dd>
+    {% endfor %}
+</dl>
+
 <h3 class="section-title">Portfolio</h3>
 <dl class="education">
     {% for portfolio in site.data.portfolio %}
