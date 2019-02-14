@@ -3,10 +3,10 @@
     {% for about in site.data.about %}
         <dd>
             <p>{{ about.description }}</p>
+            <div class="social">
+              {{ if portfolio.website }}<a href="mailto:{{ portfolio.website }}" target="_blank">Contact me</a>{{ endif }}
+            <div>
         </dd>
-        <div class="social">
-          {{ if portfolio.website }}<a href="mailto:{{ portfolio.website }}" target="_blank">Contact me</a>{{ endif }}
-        <div>
     {% endfor %}
 </dl>
 
