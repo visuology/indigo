@@ -3,44 +3,44 @@
 
 dl {
     margin-bottom: $spacer;
-    background-color: #eec7b7;
+    background-color: #1c42bf;
 }
 
 dt, dd {
     display: inline-block;
     vertical-align: top;
     margin-bottom: $spacer;
-    background-color: #eec7b7;
+    background-color: #1c42bf;
 }
 
 @media(min-width: 640px) {
     dt, dd {
         margin-bottom: 60px;
-        background-color: #eec7b7;
+        background-color: #1c42bf;
     }
 
     .experience {
         dt {
             width: 30%;
             padding-right: ($spacer * 2);
-            background-color: #eec7b7;
+            background-color: #1c42bf;
         }
         dd {
             width: 70%;
-            background-color: #eec7b7;
+            background-color: #1c42bf;
         }
     }
 
     .education {
         dt, dd {
             width: 50%;
-            background-color: #eec7b7;
+            background-color: #1c42bf;
         }
 
     .about {
         dd {
           width: 100%;
-          background-color: #eec7b7;
+          background-color: #1c42bf;
         }
       }
     }
