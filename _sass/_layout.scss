@@ -8,7 +8,6 @@ $spacer: 20px;
     max-width: 860px;
     margin: 0 auto;
     padding: 0 $spacer;
-    background-color: #1c42bf;
 }
 
 .section-title {
@@ -17,7 +16,6 @@ $spacer: 20px;
     margin-bottom: ($spacer * 2);
     text-align: center;
     position: relative;
-    background-color: #eec7b7;
 
     &:after {
         content: '';
