@@ -3,37 +3,44 @@
 
 dl {
     margin-bottom: $spacer;
+    background-color: #eec7b7;
 }
 
 dt, dd {
     display: inline-block;
     vertical-align: top;
     margin-bottom: $spacer;
+    background-color: #eec7b7;
 }
 
 @media(min-width: 640px) {
     dt, dd {
         margin-bottom: 60px;
+        background-color: #eec7b7;
     }
 
     .experience {
         dt {
             width: 30%;
             padding-right: ($spacer * 2);
+            background-color: #eec7b7;
         }
         dd {
             width: 70%;
+            background-color: #eec7b7;
         }
     }
 
     .education {
         dt, dd {
             width: 50%;
+            background-color: #eec7b7;
         }
 
     .about {
         dd {
           width: 100%;
+          background-color: #eec7b7;
         }
       }
     }
@@ -43,6 +50,7 @@ dt, dd {
     margin: 0;
     font-weight: bold;
     font-size: 1.2rem;
+    color: #eec7b7;
 }
 
 a {
